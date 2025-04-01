@@ -1,0 +1,5 @@
+#abrir arquivo, escrever, fechar (substitui o que foi feito antes)
+arquivo = open('texto.txt', 'w')
+text = input('digite: ')
+arquivo.write(text)
+arquivo.close()
